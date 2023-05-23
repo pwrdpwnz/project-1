@@ -1,0 +1,26 @@
+@import '../../../styles/vars';
+
+.navbar {
+  display: flex;
+  padding-top: 40px;
+
+  ul {
+    display: flex;
+    gap: 40px;
+
+    & > li {
+      list-style-type: none;
+    }
+
+    & > li > a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 120%;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: $white;
+    }
+  }
+}
