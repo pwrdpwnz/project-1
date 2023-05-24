@@ -1,3 +1,4 @@
 .header {
-  background: url("carHeader.png") no-repeat;
+  background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 78.8%, #141414 100%), url("carHeader.png") no-repeat;
+  background-size: cover;
 }
